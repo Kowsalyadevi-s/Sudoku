@@ -1,9 +1,8 @@
 
-const Sudoku =  require('./Sudoku.js')
 
 
 
-//  import Sudoku from "./Sudoku.js"
+ import Sudoku from "./Sudoku.js"
 
 const table =[ 
     [0,7,2,0,3,6,4,0,0],
@@ -18,8 +17,8 @@ const table =[
 ]
      var sudokuObj = new Sudoku(table);
      sudokuObj.printSudoku(table)
-     sudokuObj.findIndex(table,0)
-     sudokuObj.columnPossibleValue(table);
+     sudokuObj.findIndex(table)
+    //  sudokuObj.columnPossibleValue(table);
     //  sudokuObj.findValue(table,rowPossibe,columnPossible)
     // sudokuObj.gridPossibleValue(table)
     
